@@ -1,0 +1,11 @@
+{
+  "Title": "After your recent heart attack",
+  "Description": "",
+  "Type": "Back at Home",
+  "Languages": {
+    "ENG": {
+    	"index":"index.html",
+    	"thumb":"thumb.png"
+    }
+  }
+}
