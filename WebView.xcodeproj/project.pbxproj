@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C59BED2191535D900F9186D /* CommunityKit in Resources */ = {isa = PBXBuildFile; fileRef = 3C59BED1191535D900F9186D /* CommunityKit */; };
 		3C8D2FB019128D7000FC31CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D2FAF19128D7000FC31CA /* Foundation.framework */; };
 		3C8D2FB219128D7000FC31CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D2FB119128D7000FC31CA /* CoreGraphics.framework */; };
 		3C8D2FB419128D7000FC31CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D2FB319128D7000FC31CA /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C59BED1191535D900F9186D /* CommunityKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CommunityKit; path = "../../AZ-Brilinta-Patient-Ed-HTML/brilinta_source/tablet/CommunityKit"; sourceTree = "<group>"; };
 		3C8D2FAC19128D7000FC31CA /* WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8D2FAF19128D7000FC31CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C8D2FB119128D7000FC31CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,7 @@
 		3C8D2FB519128D7100FC31CA /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				3C59BED1191535D900F9186D /* CommunityKit */,
 				3C8D2FBE19128D7100FC31CA /* AppDelegate.h */,
 				3C8D2FBF19128D7100FC31CA /* AppDelegate.m */,
 				3C8D2FC119128D7100FC31CA /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C8D2FC819128D7100FC31CA /* Images.xcassets in Resources */,
+				3C59BED2191535D900F9186D /* CommunityKit in Resources */,
 				3C8D2FBA19128D7100FC31CA /* InfoPlist.strings in Resources */,
 				3C8D2FC319128D7100FC31CA /* Main.storyboard in Resources */,
 			);
