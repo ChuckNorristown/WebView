@@ -21,6 +21,10 @@
 		3C8D2FD119128D7100FC31CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D2FB319128D7000FC31CA /* UIKit.framework */; };
 		3C8D2FD919128D7100FC31CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C8D2FD719128D7100FC31CA /* InfoPlist.strings */; };
 		3C8D2FDB19128D7100FC31CA /* WebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8D2FDA19128D7100FC31CA /* WebViewTests.m */; };
+		3C9E4A11191D68EC00EBE1C7 /* Caregiver in Resources */ = {isa = PBXBuildFile; fileRef = 3C9E4A10191D68EC00EBE1C7 /* Caregiver */; };
+		3C9E4A13191D68F900EBE1C7 /* CommunityKit in Resources */ = {isa = PBXBuildFile; fileRef = 3C9E4A12191D68F900EBE1C7 /* CommunityKit */; };
+		3C9E4A15191D690300EBE1C7 /* DischargeKit in Resources */ = {isa = PBXBuildFile; fileRef = 3C9E4A14191D690300EBE1C7 /* DischargeKit */; };
+		3C9E4A17191D691C00EBE1C7 /* QuestionsForDoc in Resources */ = {isa = PBXBuildFile; fileRef = 3C9E4A16191D691C00EBE1C7 /* QuestionsForDoc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		3C8D2FD619128D7100FC31CA /* WebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewTests-Info.plist"; sourceTree = "<group>"; };
 		3C8D2FD819128D7100FC31CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C8D2FDA19128D7100FC31CA /* WebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewTests.m; sourceTree = "<group>"; };
+		3C9E4A10191D68EC00EBE1C7 /* Caregiver */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Caregiver; path = "../../AZ-Brilinta-Patient-Ed-HTML/brilinta_source/tablet/Caregiver"; sourceTree = "<group>"; };
+		3C9E4A12191D68F900EBE1C7 /* CommunityKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CommunityKit; path = "../../AZ-Brilinta-Patient-Ed-HTML/brilinta_source/tablet/CommunityKit"; sourceTree = "<group>"; };
+		3C9E4A14191D690300EBE1C7 /* DischargeKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DischargeKit; path = "../../AZ-Brilinta-Patient-Ed-HTML/brilinta_source/tablet/DischargeKit"; sourceTree = "<group>"; };
+		3C9E4A16191D691C00EBE1C7 /* QuestionsForDoc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = QuestionsForDoc; path = "../../AZ-Brilinta-Patient-Ed-HTML/brilinta_source/tablet/QuestionsForDoc"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 		3C8D2FB519128D7100FC31CA /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				3C9E4A16191D691C00EBE1C7 /* QuestionsForDoc */,
+				3C9E4A14191D690300EBE1C7 /* DischargeKit */,
+				3C9E4A12191D68F900EBE1C7 /* CommunityKit */,
+				3C9E4A10191D68EC00EBE1C7 /* Caregiver */,
 				3C8D2FBE19128D7100FC31CA /* AppDelegate.h */,
 				3C8D2FBF19128D7100FC31CA /* AppDelegate.m */,
 				3C8D2FC119128D7100FC31CA /* Main.storyboard */,
@@ -231,9 +243,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9E4A15191D690300EBE1C7 /* DischargeKit in Resources */,
 				3C8D2FC819128D7100FC31CA /* Images.xcassets in Resources */,
+				3C9E4A13191D68F900EBE1C7 /* CommunityKit in Resources */,
+				3C9E4A11191D68EC00EBE1C7 /* Caregiver in Resources */,
 				3C8D2FBA19128D7100FC31CA /* InfoPlist.strings in Resources */,
 				3C8D2FC319128D7100FC31CA /* Main.storyboard in Resources */,
+				3C9E4A17191D691C00EBE1C7 /* QuestionsForDoc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

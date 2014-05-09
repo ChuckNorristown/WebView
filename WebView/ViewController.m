@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString* htmlFile = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"CommunityKit"];    
+    NSString* htmlFile = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"DischargeKit"];    
     NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
     [_viewWeb loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:[htmlFile stringByDeletingLastPathComponent] isDirectory:YES]];
 }

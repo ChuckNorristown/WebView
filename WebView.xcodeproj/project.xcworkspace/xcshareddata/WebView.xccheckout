@@ -12,6 +12,8 @@
 	<dict>
 		<key>9DAB63FD-207D-497D-A6A6-AD226FDBB912</key>
 		<string>https://github.com/ChuckNorristown/WebView.git</string>
+		<key>F2929170-5E08-477E-9153-F5307DF47023</key>
+		<string>https://github.com/dmgctrl/AZ-Brilinta-Patient-Ed-HTML.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>WebView.xcodeproj/project.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>9DAB63FD-207D-497D-A6A6-AD226FDBB912</key>
 		<string>../..</string>
+		<key>F2929170-5E08-477E-9153-F5307DF47023</key>
+		<string>../../../AZ-Brilinta-Patient-Ed-HTML</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ChuckNorristown/WebView.git</string>
@@ -28,6 +32,14 @@
 	<string>9DAB63FD-207D-497D-A6A6-AD226FDBB912</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F2929170-5E08-477E-9153-F5307DF47023</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AZ-Brilinta-Patient-Ed-HTML</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
